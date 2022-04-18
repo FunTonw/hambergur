@@ -1,0 +1,440 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    letter-spacing: 1px
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    margin:0 auto; 
+    padding:0%; 
+    overflow-x:hidden; 
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* cssreset */
+
+
+.logo a{
+    display: block;
+    background: url(../image/indeximage/logo3.png) no-repeat;
+    text-indent:101%;
+    overflow:hidden;
+    white-space:nowrap;
+    width: 150px;
+    height: 62px;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.dropdown-menu{
+    border-radius: 0%;
+    padding: 0;
+    min-width: 20rem;
+}
+.dropdown-divider {
+    padding:0;
+    margin:0;
+}
+.fa-chevron-right{
+    font-size: 8px;
+    margin-right:10px;
+}
+.meunlink {
+    margin-left: 10px;
+}
+/* header */
+
+.swiper {
+    width: 100%;
+    height: 90vh;
+    font-family: 'Alfa Slab One', cursive;
+}
+.bg1-swiper{
+    background-image: url(../image/home-slide-1-1920x800.jpg);
+   
+}
+
+.bg2-swiper{
+    background-image: url(../image/home-slide-2-1920x800.jpg);
+    background-position: 50%, 50%;
+    background-size: 1900px;
+}
+
+.bg3-swiper{
+    background-image: url(../image/home-slide-3-1920x800.jpg);
+    background-position: 50%, 50%;
+    background-size: 1900px;
+ 
+}
+
+.line-swiper{
+    display: block;
+    width: 50px;
+    border-top: 2px solid #fff;
+}
+
+.swiper-pagination{
+    font-size: 20px;
+}
+
+.NewMeun{
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1;
+    margin: 10px;
+    padding: 0px 12px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.NewMeun::before{
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: -8px; right: 0; bottom: -5px; left: 0;
+    background-color: rgb(206, 10, 10);
+    transform: skew(-15deg);
+}
+.text-PIZZA{
+    font-size: 60px;
+}
+
+.withSeafood-forSwiper1{
+    font-size: 36px;
+}
+.img-forSwiper1{
+    position:relative;
+    height: 100vh;
+}
+.img-forSwiper1 img{
+    position:absolute;
+}
+.pizza1-img{
+    display: none;
+}
+.img-forSwiper1 .pizza-img{
+    top: 4rem;
+    z-index: 1;
+}
+.img-forSwiper1 .butter-img{
+    right: 4rem;
+    top: 25rem;
+}
+.img-forSwiper1 .knife-img{
+    right: 7rem;
+    top: 1rem;
+}
+.img-forSwiper1 .orange-img{
+    top: 1rem;
+    left: -10rem;
+}
+.img-forSwiper1 .vagle-img{
+    top: 25rem;
+    left: -10rem;
+
+}
+
+@media (max-width: 1024px) {
+    .swiper{
+        height: 50vh;
+    }
+    .img-forSwiper1{
+        display: none;
+    }
+    .pizza1-img{
+        display: unset;
+    }
+    .bg2-swiper{
+        background-size: 1200px;
+    }
+    .bg3-swiper{
+        background-size: 1200px;
+    }
+  }
+@media (max-width: 380px) {
+    .pizza1-img{
+        display: none;
+    }
+    .withSeafood-forSwiper1{
+        font-size: 25px;
+    }
+    .NewMeun{
+        font-size: 20px;
+    }
+    .bg2-swiper{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(../image/home-slide-2-1920x800.jpg);
+    }
+    
+    .bg3-swiper{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url(../image/home-slide-3-1920x800.jpg);
+    }
+}
+
+/* Swiper */
+
+.container-wide{
+    background-color: white;
+    padding: 100px;
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.wide-box{
+    position: relative;
+}
+
+.container-wide .wide-img img{
+    max-width: 100%;
+}
+.container-wide .wide-text{
+    position: absolute;
+    top: 40%;
+    right: 0;
+    left: 0;
+}
+@media (max-width: 1024px){
+    .container-wide{
+        padding: 50px 50px;
+    }
+    .warp-wide{
+        max-width: 960px;
+    }
+}
+@media (max-width: 380px) {
+    .wide-text-info{
+        font-size: 12px;
+    }
+}
+/* wide */
+
+.meun-slick{
+    background-color: rgb(214, 253, 255);
+        position: relative;
+}
+.meun-slick-title{
+    font-weight: 900;
+    font-size: 60px;
+}
+.meun-button{
+    margin-bottom: 100px;
+    font-family: 'Play', sans-serif;
+    font-weight: 400;
+    width: 100%;
+}
+
+.cube{
+    width: 28%;
+    height: 450px;
+    border: rgb(255, 255, 255) 7px solid;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -160px);
+
+}
+.arrows-respon{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    transform: translate(0px, -50%);
+    bottom: 60%;
+    color: pink;
+}
+.arrows-prev{
+    left:33%;
+    
+}
+.arrows-next{
+    right: 33%;
+}
+.tab-content{
+    padding-bottom: 200px;
+    z-index: 0;
+    /* display: none; */
+}
+.tab-content p{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+/* .active{
+    display: block;
+} */
+.resp{
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .meun-button{
+        width: 80%;
+    }
+    .cube{
+        display: none;
+    }
+    .arrows-respon{
+        font-size: 35px;
+    }
+    .arrows-prev{
+        left:5%;
+    }
+    .arrows-next{
+        right: 5%;
+    }
+}
+@media (max-width: 380px) {
+    .meun-button{
+        display: none;
+    }
+    .resp{
+        font-family: 'Alfa Slab One', cursive;
+        display: block;
+        
+    }
+    .tab-content{
+        background-color: #fff;
+        padding-bottom: 50px;
+    }
+    .meun-slick-title{
+        font-size: 32px;
+    }
+}   
+/* slick */
+
+
+.bg-images{
+background-image: url(../image/home-slide-1-1920x800.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+   height: 600px;
+   position:relative;
+    z-index: -1;
+   
+   
+}
+.section-img{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: -2;
+    
+}
+
+.parallax-content{
+    position: absolute; 
+    top:50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    
+}
+.parallax-h2{
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+.parallax-line{
+    width: 40px;
+    border-top: darkorange 2px solid;
+}
+.parallax-h1{
+    font-size: 55px;
+    font-family: 'Alfa Slab One', cursive;
+}
+/* section */
+
+.card{
+    background-color: rgb(247, 252, 255);
+    padding:100px 0 ;
+}
+
+.box-card{
+   width: 250px;
+}
+
+.box-card-line{
+    width: 30px;
+    border-top: 4px solid rgb(255, 228, 94);
+}
+
+@media (max-width:380px) {
+    .parallax-h1 {
+        font-size: 32px;
+    }
+    .parallax-h2{
+        font-size: 20px;
+    }
+
+}
+/* card */
+.footer{
+    padding: 80px 0;
+}
+.footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-address{
+ font-size: 12px;
+}
+.address-info{
+    color: darkgrey;
+    text-decoration: none;
+}
+.footer-title{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+}
+.footer-meunlist li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:darkgrey;
+}
+.footer-meunlist li a:hover{
+    color: darkslategray;
+}
+.li-icon::after{
+    content: "/";
+    padding: 0 12px;
+}
+/* footer */
+
+
+
+
+.row{margin:0;}
+/* .col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-xs-1,.col-xs-10,.col-xs-11,.col-xs-12,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9{padding:0;} */
+/* RWD 白邊 */

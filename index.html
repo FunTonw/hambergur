@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/fontawesomecss/all.css">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+    <link href="css/bootstrap.css" rel="stylesheet" >
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css"/>  -->
+    <title>好吃的漢堡</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light p-lg-3 shadow">
+        <div class="container-fluid me-auto">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <h1 class="logo  mx-auto">
+              <a class="navbar-brand" href="#">山明早午餐</a>
+            </h1>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto" >
+                <li class="nav-item dropdown" id="Meun">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarMeun" data-bs-toggle="dropdown" aria-expanded="false">
+                      <i class="fas fa-hamburger fa-2"></i>
+                      <span>MEUN</span>
+                    </a>
+                    <div class="dropdown-menu" style="border-radius: 0%;">
+                        <div class="row">
+                            <div><a class="dropdown-item d-flex align-items-center" href="#">
+                                <img src="image/btn-image/menu-food-01.png" alt="">
+                                <span class="meunlink">PIZZA</span></a></div>
+                            <div><a class="dropdown-item d-flex align-items-center" href="#">
+                                <img src="image/btn-image/menu-food-02.png" alt="">
+                                <span class="meunlink">BURGERS</span></a></div>
+                            <div><a class="dropdown-item d-flex align-items-center" href="#">
+                                <img src="image/btn-image/menu-food-03.png" alt="">
+                                <span class="meunlink">DRINKS</span></a></div>
+                            <div><a class="dropdown-item d-flex align-items-center" href="#">
+                                <img src="image/btn-image/menu-food-04.png" alt="">
+                                <span class="meunlink">TOASTS</span></a></div>
+                            <div><a class="dropdown-item d-flex align-items-center" href="#">
+                                <img src="image/btn-image/menu-food-05.png" alt="">
+                                <span class="meunlink">SALADS</span></a></div>
+                            <div><a class="dropdown-item d-flex align-items-center" href="#">
+                                <img src="image/btn-image/menu-food-06.png" alt="">
+                                <span class="meunlink">DESSERTS</span></a></div>
+                        </div>
+                    </div>
+                </li>
+                
+              <li class="nav-item dropdown" id="News">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-tags"></i>
+                  <span>NEWS</span>
+                </a>
+                <ul class="dropdown-menu"  aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">
+                  <i class="fas fa-chevron-right"></i><span>CLASSIC BLOG</span>
+                  </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="fas fa-chevron-right"></i><span>GRID BLOG</span>
+                    </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                    <i class="fas fa-chevron-right"></i><span>MASONRY BLOG</span>
+                    </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                     <i class="fas fa-chevron-right"></i><span>MODERN BLOG</span>
+                    </a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">
+                      <i class="fas fa-chevron-right"></i><span>BLOG POST</span>
+                    </a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                
+                <a class="nav-link" href="#">
+                  <i class="fas fa-map-marked-alt"></i>
+                  <span>CONTACTS</span>  
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fas fa-layer-group"></i>
+                  <span>PAGES</span>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div  class="bg1-swiper swiper-slide row d-flex align-items-center m-0">
+                  <div class="col-sm-6 d-flex flex-column align-items-center" >
+                    <div class="d-flex align-items-center">
+                      <p class="text-white NewMeun">NEW<br>MEUN</p>
+                      <span class="text-white text-PIZZA">PIZZA</span>
+                    </div>
+                    <p class="withSeafood-forSwiper1 text-warning">WITH SEAFOOD</p>
+                    <button class="btn btn-danger rounded-pill mt-3 ">ORDER ONLINE</button>
+                  </div>
+                  <img class="col-6 pizza1-img" src="image/indeximage/slide-caption-image-1-599x596.png" alt="">
+                  <div class="col-6 img-forSwiper1">
+                    <img class="pizza-img" src="image/indeximage/slide-caption-image-1-599x596.png" alt="">
+                    <img class="butter-img" src="image/indeximage/slide-caption-image-2-346x336.png" alt="">
+                    <img class="knife-img" src="image/indeximage/slide-caption-image-3-228x310.png" alt="">
+                    <img class="orange-img" src="image/indeximage/slide-caption-image-4-179x213.png" alt="">
+                    <img class="vagle-img" src="image/indeximage/slide-caption-image-5-522x343.png" alt="">
+                  </div>
+              </div>
+              <div class="bg2-swiper swiper-slide row d-flex align-items-center m-0">
+                <div class="col-12 col-sm-6 d-flex flex-column align-items-center">
+                  <div class="d-flex align-items-center">
+                    <span class="line-swiper m-2"></span>
+                    <p class="text-white">for Our Chef</p>
+                    <span class="line-swiper m-2"></span>
+                  </div>
+                  <div class="text-center">
+                    <div class="text-white text-PIZZA">MEET THE</div>
+                    <div class="text-white text-PIZZA">LEGEND</div>
+                  </div>
+                  <p class="withSeafood-forSwiper1 text-warning">California Burger</p>
+                </div>
+              </div>
+              <div class="bg3-swiper swiper-slide row d-flex align-items-center m-0">
+                <div class="col-12 col-sm-6 d-flex flex-column align-items-center">
+                  <p class="text-white NewMeun">HOT STUFF</p>
+                  <span class="text-white text-PIZZA">MEXICAN</span>
+                  <p class="withSeafood-forSwiper1 text-warning">BURGER</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+          </div>
+        
+          <div class="container-wide">
+            <div class="row warp-wide justify-content-md-center">
+              <div class="col-lg-4 col-md-6 wide-box mb-3">
+                <a href="#" class="wide-img">
+                <img src="image/indeximage/index-01-566x401.jpg" alt="">
+                <div class="wide-text text-center text-white">
+                  <p class="fs-3 fs-ms-1">For Vegans</p>
+                  <p class="wide-text-info">Burger + FrenchFries + Drink</p>
+                </div>
+              </a></div>
+              <div class="col-lg-4 col-md-6 wide-box mb-3">
+                <a href="#" class="wide-img">
+                  <img src="image/indeximage/index-02-566x401.jpg" alt="">
+                  <div class="wide-text text-center text-white">
+                    <p class="fs-3 fs-ms-1">Order Online</p>
+                    <p class="wide-text-info">Available Every Day 9AM - 11PM</p>
+                  </div>
+                </a>
+              </div>
+              <div class="col-lg-4 col-md-6 wide-box mb-3">
+              <a href="#" class="wide-img">
+                <img src="image/indeximage/index-03-566x401.jpg" alt="">
+                <div class="wide-text text-center text-white">
+                  <p  class="fs-3 fs-ms-1">Cake Specials</p>
+                  <p class="wide-text-info">Every Friday Only $0.99</p>
+                </div>
+              </a>
+              </div>
+
+
+            </div>
+            
+          </div>
+
+          <div class="meun-slick pb-3">
+            <p class="meun-slick-title text-center p-3">美味餐點</p>
+            
+            <div class="meun-button mx-auto p-4">
+              <ul class="d-flex justify-content-center flex-wrap">
+                <li><button class="bergur-btn btn btn-outline-danger rounded-pill m-2 py-2 px-4">BERGUR</button></li>
+                <li><button class="pizza-btn btn btn-outline-danger rounded-pill m-2 py-2 px-4">PIZZA</button></li>
+                <li><button class="salads-btn btn btn-outline-danger rounded-pill m-2 py-2 px-4">SALADS</button></li>
+                <li><button class="toasts-btn btn btn-outline-danger rounded-pill m-2 py-2 px-4">TOASTS</button></li>
+                <li><button class="drinks-btn btn btn-outline-danger rounded-pill m-2 py-2 px-4">DRINKS</button></li>
+                <li><button class="desserts-btn btn btn-outline-danger rounded-pill m-2 py-2 px-4">DESSERTS</button></li>
+              </ul>
+            </div>
+            <div class="cube d-lg-flex align-items-center justify-content-between">
+            </div>
+            <div>
+              <div class="resp mt-2 mx-3 py-3 bg-white rounded-3 text-center" id="Burgers-resp">
+                <span class="resp-btn">
+                  <i class="fa fa-plus"></i>
+                  Burgers</span>
+              </div>
+              <div class="tab-content bergur-pic-main mx-3 rounded-bottom">
+                <div class="d-flex flex-column align-items-center">
+                  <img  src="image/hambarger/menu-modern-1-310x260.png" alt="">
+                  <p>墨西哥堡</p>
+                  <p class="text-danger">$12.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/hambarger/menu-modern-2-310x260.png" alt="">
+                  <p>雞肉堡</p>
+                  <p class="text-danger">$9.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/hambarger/menu-modern-3-310x260.png" alt="">
+                  <p>迷你堡</p>
+                  <p class="text-danger">$10.0</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/hambarger/menu-modern-4-310x260.png" alt="">
+                  <p>經典堡</p>
+                  <p class="text-danger">$10.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/hambarger/menu-modern-5-310x260.png" alt="">
+                  <p>雙層牛肉堡</p>
+                  <p class="text-danger">$13.25</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/hambarger/menu-modern-6-310x260.png" alt="">
+                  <p>地中海堡</p>
+                  <p class="text-danger">$6.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+    
+              </div>
+              <div class="resp mt-2 mx-3 py-3 bg-white rounded-3 text-center" id="Toasts-resp">
+                <span class="resp-btn">
+                  <i class="fa fa-plus"></i>
+                  Toasts</span>
+              </div>
+              <div class="tab-content toasts-pic-main mx-3 rounded-bottom">
+                <div class="d-flex flex-column align-items-center">
+                  <img  src="image/toast/toast-1-310x260.png" alt="">
+                  <p>墨西哥堡</p>
+                  <p class="text-danger">$12.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/toast/toast-2-310x260.png" alt="">
+                  <p>雞肉堡</p>
+                  <p class="text-danger">$9.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/toast/toast-3-310x260.png" alt="">
+                  <p>迷你堡</p>
+                  <p class="text-danger">$10.0</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/toast/toast-4-310x260.png" alt="">
+                  <p>經典堡</p>
+                  <p class="text-danger">$10.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/toast/toast-5-310x260.png" alt="">
+                  <p>雙層牛肉堡</p>
+                  <p class="text-danger">$13.25</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+    
+              </div>
+
+              <div class="resp mt-2 mx-3 py-3 bg-white rounded-3 text-center" id="Pizza-resp">
+                <span class="resp-btn">
+                  <i class="fa fa-plus"></i>
+                  Pizza</span>
+              </div>
+              <div class="tab-content pizza-pic-main mx-3 rounded-bottom">
+                <div class="d-flex flex-column align-items-center tab-items">
+                  <img  src="image/pizza/pizzas-1-310x260.png" alt="">
+                  <p>夏威夷披薩</p>
+                  <p class="text-danger">$12.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/pizza/pizzas-2-310x260.png" alt="">
+                  <p>青椒牛肉披薩</p>
+                  <p class="text-danger">$9.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/pizza/pizzas-3-310x260.png" alt="">
+                  <p>迷你堡</p>
+                  <p class="text-danger">$10.0</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/pizza/pizzas-4-310x260.png" alt="">
+                  <p>經典堡</p>
+                  <p class="text-danger">$10.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/pizza/pizzas-5-310x260.png" alt="">
+                  <p>雙層牛肉堡</p>
+                  <p class="text-danger">$13.25</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+    
+              </div>
+
+              <div class="resp mt-2 mx-3 py-3 bg-white rounded-3 text-center" id="Salads-resp">
+                <span class="resp-btn">
+                  <i class="fa fa-plus"></i>
+                  Salads</span>
+              </div>
+              <div class="tab-content salads-pic-main mx-3 rounded-bottom">
+                <div class="d-flex flex-column align-items-center">
+                  <img  src="image/sala/salads-1-310x260.png" alt="">
+                  <p>墨西哥堡</p>
+                  <p class="text-danger">$12.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/sala/salads-2-310x260.png" alt="">
+                  <p>雞肉堡</p>
+                  <p class="text-danger">$9.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/sala/salads-3-310x260.png" alt="">
+                  <p>迷你堡</p>
+                  <p class="text-danger">$10.0</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/sala/salads-4-310x260.png" alt="">
+                  <p>經典堡</p>
+                  <p class="text-danger">$10.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/sala/salads-5-310x260.png" alt="">
+                  <p>雙層牛肉堡</p>
+                  <p class="text-danger">$13.25</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+    
+              </div>
+
+              <div class="resp mt-2 mx-3 py-3 bg-white rounded-3 text-center" id="Drinks-resp">
+                <span class="resp-btn">
+                  <i class="fa fa-plus"></i>
+                  Drinks</span>
+              </div>
+              <div class="tab-content drinks-pic-main mx-3 rounded-bottom">
+                <div class="d-flex flex-column align-items-center">
+                  <img  src="image/drink/drinks-1-310x260.png" alt="">
+                  <p>墨西哥堡</p>
+                  <p class="text-danger">$12.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/drink/drinks-2-310x260.png" alt="">
+                  <p>雞肉堡</p>
+                  <p class="text-danger">$9.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/drink/drinks-3-310x260.png" alt="">
+                  <p>迷你堡</p>
+                  <p class="text-danger">$10.0</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/drink/drinks-4-310x260.png" alt="">
+                  <p>經典堡</p>
+                  <p class="text-danger">$10.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/drink/drinks-5-310x260.png" alt="">
+                  <p>雙層牛肉堡</p>
+                  <p class="text-danger">$13.25</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+    
+              </div>
+
+              <div class="resp mt-2 mx-3 py-3 bg-white rounded-3 text-center" id="Desserts-resp">
+                <span class="resp-btn">
+                  <i class="fa fa-plus"></i>
+                Desserts</span>
+              </div>
+              <div class="tab-content desserts-pic-main mx-3 rounded-bottom">
+                <div class="d-flex flex-column align-items-center tab-items">
+                  <img  src="image/desserts/deserts-1-310x260.png" alt="">
+                  <p>夏威夷披薩</p>
+                  <p class="text-danger">$12.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/desserts/deserts-2-310x260.png" alt="">
+                  <p></p>
+                  <p class="text-danger">$9.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/desserts/deserts-3-310x260.png" alt="">
+                  <p>迷你堡</p>
+                  <p class="text-danger">$10.0</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/desserts/deserts-4-310x260.png" alt="">
+                  <p>經典堡</p>
+                  <p class="text-danger">$10.50</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+                <div class="d-flex flex-column align-items-center">
+                  <img src="image/desserts/deserts-5-310x260.png" alt="">
+                  <p>雙層牛肉堡</p>
+                  <p class="text-danger">$13.25</p>
+                  <button class="btn btn-outline-danger rounded-pill mt-3">ORDER ONLINE</button>
+                </div>
+    
+              </div>
+            </div>
+            <div class="meun-arrow"></div>
+				</div>
+        
+          <section class="bg-images overflow-hidden">
+            <img class="section-img" src="image/parallax-03.png" alt="">
+            <div class="parallax-content text-white d-flex flex-column align-items-center">
+
+              <div class="d-flex align-items-center mb-3 mb-ms-0">
+                <div class="parallax-line m-2"></div>
+                <p class="parallax-h2">Free delivery</p>
+                <div class="parallax-line m-2"></div>
+              </div>
+              <p class="parallax-h1 mb-3 mb-ms-0">SANDWICH&nbsp;DAY</p>
+              <div class="d-flex mb-3 mb-ms-0" style=" font-family: 'Alfa Slab One', cursive;">
+                <p class="mt-3"  style="font-size: 23px;">$</p>
+                <p style="font-size: 60px;">3</p>
+                <p class="fs-1 pt-1">99</p>
+                <div class="p-2 fs-6 lh-2" >
+                  <p>Sandwich</p>
+                  <p>Salad</p>
+                  <p>Drink</p>
+                </div>  
+            </div>
+
+            <button class="btn btn-danger rounded-pill p-3">
+              ORDER ONLINE
+            </button>
+            
+          </div> 
+          </section>
+
+        <div class="card">
+          <div class="row justify-content-center">
+            <div class="col-md-3 box-card d-flex flex-column align-items-center m-3">
+              <div class="far fa-clock fa-5x mb-3"></div>
+              <p class="fw-bolder mb-3">FAST DELIVERY</p>
+              <span class="box-card-line mb-3"></span>
+              <p class="text-center" style="font-size: 12px;">Everything you order at QuickFood will be quickly delivered to your door.</p>   
+            </div>
+            <div class="col-md-3 box-card d-flex flex-column align-items-center m-3">
+              <div class="fas fa-fish fa-5x mb-3"></div>
+              <p class="fw-bolder mb-3">FRESH FOOD</p>
+              <span class="box-card-line mb-3"></span>
+              <p class="text-center" style="font-size: 12px;">We use only the best ingredients to cook the tasty fresh food for you.</p>   
+            </div>
+            <div class="col-md-3 box-card d-flex flex-column align-items-center m-3">
+              <div class="fas fa-hamburger fa-5x mb-3"></div>
+              <p class="fw-bolder mb-3">EXPERIENCED CHEFS</p>
+              <span class="box-card-line mb-3"></span>
+              <p class="text-center" style="font-size: 12px;">Our staff consists of chefs and cooks with years of experience.</p>   
+            </div>
+            <div class="col-md-3 box-card d-flex flex-column align-items-center m-3">
+              <div class="fas fa-utensils fa-5x mb-3"></div>
+              <p class="fw-bolder mb-3">A VARIETY OF DISHES</p>
+              <span class="box-card-line mb-3"></span>
+              <p class="text-center" style="font-size: 12px;">In our menu you’ll find a wide variety of dishes, desserts, and drinks.</p>   
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-0" id="lightgallery">
+          <a class="col-md-6 col-lg-3" href="image/indeximage/index-gallery-1-480x394.jpg" data-lightbox="example-1">
+          <img class="img-fluid" src="image/indeximage/index-gallery-1-480x394.jpg" alt="">
+          </a>
+          <a class="col-md-6 col-lg-3" href="image/indeximage/index-gallery-2-480x394.jpg" data-lightbox="example-1">
+            <img class="img-fluid" src="image/indeximage/index-gallery-2-480x394.jpg" alt="">
+          </a>
+          <a class="col-md-6 col-lg-3" href="image/indeximage/index-gallery-3-480x394.jpg" data-lightbox="example-1">
+            <img class="img-fluid" src="image/indeximage/index-gallery-3-480x394.jpg" alt="">
+          </a>
+          <a class="col-md-6 col-lg-3" href="image/indeximage/index-gallery-4-480x394.jpg" data-lightbox="example-1">
+            <img class="img-fluid" src="image/indeximage/index-gallery-4-480x394.jpg" alt="">
+          </a>
+        </div>
+
+
+    </main> 
+    <footer class="footer bg-muted">
+      <div class="row footer-container mx-auto">
+        <div class="col-xl-4 col-md-6 d-flex flex-column align-items-center align-items-sm-start">
+          <span class="logo">
+            <a class="navbar-brand" href="#">山明早午餐</a>
+          </span>
+            <address class="footer-address">
+              <p class="d-inline">Address: </p><p class="d-inline address-info">267 Park Avenue New York, NY 90210</p>
+              <br>
+              <p class="d-inline">tel: </p><a class="address-info" href="tel:+#">0923312321</a>
+            </address>
+        </div>
+        <div class=" col-xl-4 col-md-6 mt-5 mt-md-0 d-flex flex-column align-items-center align-items-sm-start">
+          <p class="footer-title">OUR MEUN</p>
+          <ul class="footer-meunlist text-center text-sm-start">
+            <li class="li-icon d-inline-block"><a href="#">BURGER</a></li>
+            <li class="li-icon d-inline-block"><a href="#">PIZZA</a></li>
+            <li class="li-icon d-inline-block"><a href="#">TOASTS</a></li>
+            <li class="li-icon d-inline-block"><a href="#">SALADS</a></li>
+            <li class="li-icon d-inline-block"><a href="#">DRINKS</a></li>
+            <li class="d-inline-block"><a href="#">DESSERTS</a></li>
+          </ul>
+        </div>
+        <div class=" col-xl-4 col-md-12 mt-5 mt-lg-0 d-flex flex-column align-items-center align-items-sm-start">
+          <p class="footer-title">NEWSLETTER</p>
+          <form action="#">
+            <div class="d-flex flex-column flex-sm-row">
+              <input class="rounded-pill form-control py-3 me-2" type="email" name="mail" id="mail" placeholder="your mail">
+              <button type="submit" class="btn btn-danger rounded-pill mt-2 mt-sm-0">SUBSCRIBE</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+     
+    </footer>
+    
+
+
+
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/all.js"></script>
+    
+
+
+  </body>
+</html>
